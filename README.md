@@ -1,2 +1,3 @@
-# ReedBrowser-beta
-github for reedbrowser
+# ReedBrowser
+Latest versions of reedbrowser!!
+MAY CONTAIN BUGS!!!!!!!!!!!!!!!!
