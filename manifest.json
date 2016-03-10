@@ -1,0 +1,29 @@
+{
+
+  "manifest_version": 2,
+  "name": "Reed Browser 2.3.3.5c",
+  "description": "The New Reed Browser",
+  "minimum_chrome_version": "24.0.1307.0",
+  "version": "2.3.3.5",
+  "default_locale": "en",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["config.js", "main.js"]
+    }
+  },
+  "webview": {
+          "partitions": [
+            {
+              "name": "all",
+              "accessible_resources": ["home.html", "home.js", "acb.png"]
+            }
+          ]
+  },
+  "permissions": [
+    "webview"
+  ]
+}
